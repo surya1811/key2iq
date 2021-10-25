@@ -1,0 +1,92 @@
+.foot{
+  
+    max-height:auto;
+    max-width:100%;
+    font-weight:italics;
+    background-image:linear-gradient(to top right,rgb(230, 97, 223),rgb(119, 211, 214));
+     font-family:cursive;
+   text-align:center;
+    border:2px solid seagreen;
+    cursor:pointer;
+    }
+
+    .icon-bar {
+        position: fixed;
+        right:1%;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+      
+      .facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .content {
+        margin-left: 75px;
+        font-size: 30px;
+      }
+.inp
+{
+    width : 125;
+    padding :2px 20px;
+    border : none;
+    border-bottom : 2px solid black;
+    background : transparent;
+    font-family : century gothic;
+    font-size: 30px;
+}
+.sub
+{
+    background: white;
+    color: black;
+    font-family: Century Gothic;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    margin-top : 20px; 
+    margin-bottom: 80px;  
+}
+.sub:hover
+{
+    cursor: pointer;
+      background: black;
+      color: white;
+      transition: 0.6s;
+}
